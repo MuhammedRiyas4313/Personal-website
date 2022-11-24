@@ -3,3 +3,14 @@
 if(sd>settings.min)
 $(containerIDhash).fadeIn(settings.inDelay);else
 $(containerIDhash).fadeOut(settings.Outdelay);});};})(jQuery);
+
+function status(){
+
+    const text =document.getElementById('email1').value
+    if(text.includes("@gmail.com")){
+        alert("Succesfull");
+    }else{
+        alert("Please enter a valid mail");
+    }
+    
+}
